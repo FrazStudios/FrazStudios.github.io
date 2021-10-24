@@ -1,11 +1,14 @@
+:root{
+    --text-color: #4d4d4d;
+}
+
 body {
     background-color: rgb(95, 95, 95);
 }
 h1 {
     font-family: 'Ubuntu Mono', monospace;
-    opacity: 0.25;
+    color: var(--text-color);
     font-size: 10rem;
     text-align: center;
-    text-shadow: 6px 6px 0px rgba(0,0,0,0.22);
-    background-color: rgba(0,0,0,0.0);
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.075);
 }
